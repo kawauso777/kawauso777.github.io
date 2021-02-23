@@ -5,163 +5,161 @@
     <title>SQIP Cafe｜新横浜のスペシャルティコーヒー専門店</title>
     <meta name="description" content="軽やかにいこう！新横浜のスペシャルティコーヒー専門店です。">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./style.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/js/min/scripts.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
 
-  <body id="top">    
-    <!--   ヘッダー   -->
-    <header class="l-header is-act">
-      <div class="container">
-        <div class="l-header_inner">
-          <div class="l-header_title hidden-xs">
-            <h1 class="logo"><a href=""><img src="./img/sqipcafe_logo_01.png" alt="SQIP Cafe"></a><p class="time">新横浜のスペシャルティコーヒー専門店</p></h1>
+  <body>
+
+    <div id="top_page">  
+      <!--   ヘッダー   -->
+      <header class="header">
+        <div class="container">
+          <div class="header_inner">
+            <div class="header_title">
+              <h1 class="header_logo"><a href="#"><img src="./img/sqipcafe_logo_01.png" alt="SQIP Cafe"></a><p class="time">新横浜のスペシャルティコーヒー専門店</p></h1>
+            </div>
+            <div>
+              <ul class="header_info">
+                  <li><a href="#">アクセス</a></li>
+                  <li><a href="#">サイトマップ</a></li>
+                  <li><a href="#">お問い合わせ</a></li>
+              </ul>
+              <nav class="header_nav">
+                <ul>
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#">CONCEPT</a></li>
+                  <li><a href="#">DRINK</a></li>
+                  <li><a href="#">CAKE</a></li>
+                  <li><a href="#">FOOD</a></li>
+                  <li><a href="#">TAKEOUT</a></li>
+                </ul>
+              </nav>
+            </div>
           </div>
-          <div class="l-header_info">
-            <div class="ly_headerMain_ctaArea">
-              <div class="ly_header_ctaNav">
-                  <a href="#" class="el_btn_cta el_btn_dl">アクセス</a>
-                  <a href="#" class="el_btn_cta el_btn_dl">サイトマップ</a>
-                  <a href="#" class="el_btn_cta el_btn_contact">お問い合わせ</a>
+          <div class="hamburger">
+            <span></span>
+          </div>
+        </div>
+      </header>
+
+      <div class="kv">
+        <div class="kv_inner">
+          <p class="kv_label">しあわせを<br>感じるひとときを</p>
+          <p class="kv_guide">新鮮なコーヒー豆「香りのカプセル」をお届けします。</p>
+          <p class="kv_more"><a href="#">MORE</a></p>
+        </div>
+      </div>
+
+      <!--    コンテンツ	-->
+      <main>
+        <div>
+          <!-- MENU -->
+          <section id="menu">
+            <div class="container">
+              <div class="ttl_area">
+                <h2><span class="en">MENU</span></h2>
+                <p>SQIP Cafeは新鮮な食材で丁寧に仕上げた料理を<br>お客様にお届けしています。</p>
+              </div>
+              <ul class="menu_list">
+                <li class="menu_box">
+                  <div><img src="./img/drink_00.png" alt="DRINK"></div>
+                  <h3><span class="en">DRINK</span><span class="ja">ドリンク</span></h3>
+                  <p class="descri"><span class="en">本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります</p>
+                </li>
+                <li class="menu_box">
+                  <div><img src="./img/cake_00.png" alt="DRINK"></div>
+                  <h3><span class="en">CAKE</span><span class="ja">ケーキ</span></h3>
+                  <p class="descri"><span class="en">本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります</p>
+                </li>
+                <li class="menu_box">
+                  <div><img src="./img/food_00.png" alt="DRINK"></div>
+                  <h3><span class="en">FOOD</span><span class="ja">フード</span></h3>
+                  <p class="descri"><span class="en">本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります</p>
+                </li>
+              </ul>
+              <p class="detail"><a href="#">詳しくはこちら</a></p>
+            </div>
+          </section>
+          <!-- NEWS -->
+          <section id="news">
+            <div class="container">
+              <div class="ttl_area">
+                <h2><span class="en">NEWS</span></h2>
+              </div>
+              <div class="info-list">
+                <dl>
+                  <dt class="info-date">2019.10.11</dt>
+                  <dd class="info-tag-emergency">緊急のお知らせ</dd>
+                  <dd class="info-txt">明日12日（土）は台風19号のため終日休業とさせていただきます。ご了承ください。</dd>
+                </dl>
+                <dl>
+                  <dt class="info-date">2019.09.12</dt>
+                  <dd class="info-tag-new_menu">新メニュー</dd>
+                  <dd class="info-txt">コーヒー豆が新しくなりました。</dd>
+                </dl>
+                <dl>
+                  <dt class="info-date">2019.09.01</dt>
+                  <dd class="info-tag-new_menu">新メニュー</dd>
+                  <dd class="info-txt">期間限定！マロンケーキが新登場。まろやかなマロンクリームと新鮮な生クリームの組み合わせが絶品です。</dd>
+                </dl>
+                <dl>
+                  <dt class="info-date">2019.08.25</dt>
+                  <dd class="info-tag-info">お知らせ</dd>
+                  <dd class="info-txt">公式サイトをリニューアルしました。</dd>
+                </dl>              
+              </div>
+              <p class="detail"><a href="#">詳しくはこちら</a></p>           
+            </div>
+          </section>
+          <!-- ACCESS -->
+          <section id="access">
+            <div class="container">
+              <div class="ttl_area">
+                <h2><span class="en">ACCESS</span></h2>
+                <address>〒222-0033 神奈川県横浜市港北区新横浜2-12-12 新横浜IKビル304</address>
+              </div>
+              <div class="information_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3247.806797707558!2d139.6107088156088!3d35.50905524700201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185ed391eb65b5%3A0x9fcc0f0c3ce88635!2z44CSMjIyLTAwMzMg56We5aWI5bed55yM5qiq5rWc5biC5riv5YyX5Yy65paw5qiq5rWc77yS5LiB55uu77yR77yS4oiS77yR77ySIOaWsOaoqua1nO-8qe-8q-ODk-ODqw!5e0!3m2!1sja!2sjp!4v1614088176897!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
               </div>
             </div>
-            <nav class="gnavi js-spNav">
-              <ul>
-                <li><a href="#" class="js-hover">HOME</a></li>
-                <li><a href="#" class="js-hover">CONCEPT</a></li>
-                <li><a href="#" class="js-hover">DRINK</a></li>
-                <li><a href="#" class="js-hover">CAKE</a></li>
-                <li><a href="#" class="js-hover">FOOD</a></li>
-                <li><a href="#" class="js-hover">TAKEOUT</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-        <div class="hamburger visible-xs">
-          <span></span>
-        </div>
-      </div>
-    </header>
-    <div class="p-kv js-act is-act">
-      <div class="p-kv_inner js-inner">
-        <p class="p-kv_label js-act is-act">しあわせを感じるひとときを</p>
-        <p class="p-kv_guide js-act is-act">新鮮なコーヒー豆「香りのカプセル」をお届けします。</p>
-        <a href="#" class="p-kv_parking js-act js-hover is-act js-delay">
-          <p class="mb0">MORE</p>
-        </a>
-      </div>
-    </div>
-
-    <!--    コンテンツ	-->
-    <main class="l-contents">
-      <div class="l-main">
-        <!-- MENU -->
-        <section id="menu" class="p-concept u-bg02">
-          <div class="container">
-            <div class="c-ttl_area">
-              <h2 class="c-ttl01">MENU</h2>
-              <p>SQIP Cafeは新鮮な食材で丁寧に仕上げた料理を<br>お客様にお届けしています。</p>
-            </div>
-            <ul class="p-concept_list">
-              <li class="p-concept_box">
-                <div class="ico"><img src="./img/drink_00.png" alt="DRINK"></div>
-                <h3><span class="en">DRINK</span><span class="ja">ドリンク</span></h3>
-                <p class="mb0"><span class="en">本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります</p>
-              </li>
-              <li class="p-concept_box -odd">
-                <div class="ico"><img src="./img/cake_00.png" alt="DRINK"></div>
-                <h3><span class="en">CAKE</span><span class="ja">ケーキ</span></h3>
-                <p class="mb0"><span class="en">本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります</p>
-              </li>
-              <li class="p-concept_box">
-                <div class="ico"><img src="./img/food_00.png" alt="DRINK"></div>
-                <h3><span class="en">FOOD</span><span class="ja">フード</span></h3>
-                <p class="mb0"><span class="en">本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります本文が入ります</p>
-              </li>
+          </section>
+          <!-- バナー -->
+          <article class="bnr">
+            <ul class="container">
+              <li><a href="#"><img src="./img/bnr_01.png" alt="SQIP:BtoBの企業サイト専門web制作会社"></a></li>
+              <li><a href="#"><img src="./img/bnr_02.png" alt="画像を入れてください"></a></li>
+              <li><a href="#"><img src="./img/bnr_02.png" alt="画像を入れてください"></a></li>
+              <li><a href="#"><img src="./img/bnr_02.png" alt="画像を入れてください"></a></li>
             </ul>
-            <p><a href="#">詳しくはこちら</a></p>
-          </div>
-        </section>
-        <!-- NEWS -->
-        <section id="news" class="p-howto u-bg01">
-          <div class="container">
-            <div class="c-ttl_area">
-              <h2 class="c-ttl01"><span class="en">NEWS</span></h2>
-            </div>
-            <div class="info-list">
-              <dl>
-                <dt class="info-date">2019.10.11</dt>
-                <dd class="info-tag-emergency">緊急のお知らせ</dd>
-                <dd class="info-txt">明日12日（土）は台風19号のため終日休業とさせていただきます。ご了承ください。</dd>
-              </dl>
-              <dl>
-                <dt class="info-date">2019.09.12</dt>
-                <dd class="info-tag-new_menu">新メニュー</dd>
-                <dd class="info-txt">コーヒー豆が新しくなりました。</dd>
-              </dl>
-              <dl>
-                <dt class="info-date">2019.09.01</dt>
-                <dd class="info-tag-new_menu">新メニュー</dd>
-                <dd class="info-txt">期間限定！マロンケーキが新登場。まろやかなマロンクリームと新鮮な生クリームの組み合わせが絶品です。</dd>
-              </dl>
-              <dl>
-                <dt class="info-date">2019.08.25</dt>
-                <dd class="info-tag-info">お知らせ</dd>
-                <dd class="info-txt">公式サイトをリニューアルしました。</dd>
-              </dl>              
-            </div>
-            <p><a href="#">詳しくはこちら</a></p>           
-          </div>
-        </section>
-        <!-- ACCESS -->
-        <section id="access" class="p-information u-bg02">
-          <div class="container">
-            <div class="c-ttl_area">
-              <h2 class="c-ttl01">ACCESS</h2>
-              <address>〒222-0033 神奈川県横浜市港北区新横浜2-12-12 新横浜IKビル304</address>
-            </div>
-            <div class="p-information_map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d819.607446912115!2d135.60913068816427!3d34.74476480075488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60011f067b3aca2d%3A0xf6359529037f9f!2sWASH%26CAFE!5e0!3m2!1sja!2sjp!4v1566193591298!5m2!1sja!2sjp" width="1280" height="530" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-            </div>
-          </div>
-        </section>
-        <!-- バナー -->
-        <article>
-          <ul>
-            <li><a href="#"><img src="./img/bnr_01.png" alt="SQIP:BtoBの企業サイト専門web制作会社"></a></li>
-            <li><a href="#"><img src="./img/bnr_02.png" alt="画像を入れてください"></a></li>
-            <li><a href="#"><img src="./img/bnr_02.png" alt="画像を入れてください"></a></li>
-            <li><a href="#"><img src="./img/bnr_02.png" alt="画像を入れてください"></a></li>
-          </ul>
-        </article>
-      </div>
-    </main>
-
-    <!-- フッター -->
-    <footer class="l-footer">
-      <div class="container">
-        <p class="l-footer_logo"><a href=""><img src="./img/sqipcafe_logo_01.png" alt="SQIP Cafe"></a></p>
-        <nav class="gnavi">
-          <ul>
-            <li><a href="#" class="js-hover">HOME</a></li>
-            <li><a href="#" class="js-hover">CONCEPT</a></li>
-            <li><a href="#" class="js-hover">DRINK</a></li>
-            <li><a href="#" class="js-hover">CAKE</a></li>
-            <li><a href="#" class="js-hover">FOOD</a></li>
-            <li><a href="#" class="js-hover">TAKEOUT</a></li>
-          </ul>
-        </nav>          
-      </div>
-      <div class="ly_footerCopy_inner">
-        <div class="ly_header_ctaNav">
-          <a href="#" class="el_btn_cta el_btn_dl">アクセス</a>
-          <a href="#" class="el_btn_cta el_btn_dl">サイトマップ</a>
-          <a href="#" class="el_btn_cta el_btn_contact">お問い合わせ</a>
+          </article>
         </div>
-        <p class="copyright">&copy;&nbsp;SQIP Inc. All rights reserved.</p>
-      </div>
-    </footer>
+      </main>
 
+      <!-- フッター -->
+      <footer>
+        <div class="container">
+          <p class="footer_logo"><a href=""><img src="./img/sqipcafe_logo_02.png" alt="SQIP Cafe"></a></p>
+          <nav class="gnavi">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">CONCEPT</a></li>
+              <li><a href="#">DRINK</a></li>
+              <li><a href="#">CAKE</a></li>
+              <li><a href="#">FOOD</a></li>
+              <li><a href="#">TAKEOUT</a></li>
+            </ul>
+          </nav>          
+        </div>
+        <div class="footer_bottom">
+          <ul class="footer_info">
+            <li><a href="#">アクセス</a></li>
+            <li><a href="#">サイトマップ</a></li>
+            <li><a href="#" class="el_btn_cta el_btn_contact">お問い合わせ</a></li>
+          </ul>
+          <p class="copyright">&copy;&nbsp;SQIP Inc. All rights reserved.</p>
+        </div>
+      </footer>
+    <!-- / #page --></div>
+    
   </body>
 </html>
