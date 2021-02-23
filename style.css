@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+* {font-family: Times,serif,"メイリオ","Meiryo","ＭＳ Ｐゴシック",osaka, monospace ;}
+
+  /* width: 1280px;
+  margin: 0 auto; */
+
+/* .l-header {
+  background-image: url("../img/top_main.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1280px;
+  height: 740px;
+} */
+
+ul {
+  list-style-type: none;
+}
+section {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+article {
+  max-width: 1280px;
+  margin: 0 auto;
+  background: #f4f2f0;
+}
+
+.p-kv .p-kv_inner .p-kv_label {
+  font-size: 62px;
+  color: #fff;
+  text-align: center;
+}
+.p-kv .p-kv_inner .p-kv_guide {
+  font-size: 15px;
+  color: #fff;
+}
+.l-header.is-act {
+  opacity: 1;
+  top: 0;
+}
+.l-header {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 100;
+}
+.p-kv {
+  height: 100vh;
+  min-height: 730px;
+  background-image: url("./img/top_main.png");
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+
+#sec_01 {
+  text-align: center;
+}
+#sec_01 div.main {
+  background-image: url("../img/main.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: #AF1653;
+  height: 700px;
+}
+#sec_01 div.main div h2 {
+  font-size: 34px;
+}
+#sec_01 div.main div h2 span {
+  font-size: 76px;
+  text-shadow: #fff 2px 2px 0px, #fff -2px 2px 0px, #fff 2px -2px 0px, #fff -2px -2px 0px;
+}
+
+#sec_01 div.main {
+  background: #E5EFF7;
+}
+#sec_01 div.head p.yo_to {
+  background: #AF1653;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.2em;
+  width: 3.5em;
+  padding: 0.2em;
+}
+
+#sec_01 h3 {
+  font-size: 40px;
+  color: #fff;
+  background: #AF1653;
+  padding:0.5em;
+}
+
+
+
+
+
+#sec_02 {
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+#sec_01 h1, footer p.copy {
+  padding: 0.5em;
+  background: #AF1653;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+}
+
+#sec_01 ul li {
+    list-style-type: none;
+}
+
+
+div#main_container div.fig6 {
+  background-image: url("./img/bg_green.jpg");
+}
+
+
+
+
+
+
+div#main_container h3 {
+  color:#AF1653;
+}
+
+
+
+
+
+
+div#main_container .accordion-container .accordion-title {
+    position: relative;
+    margin: 0;
+    /* padding: 0.625em 0.625em 0.625em 2em; */
+    background-color: #E7B9CB;
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #fff;
+    cursor: pointer;
+  }
+  div#main_container .accordion-container .accordion-title:hover,
+  div#main_container .accordion-container .accordion-title:active,
+  div#main_container .accordion-title.open { 
+    background-color: #00aaa7;
+  }
+  
+  div#main_container .accordion-container .accordion-title::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    width: 15px;
+    height: 2px;
+    /*縦線に*/
+    transform: rotate(90deg);
+    background: #fff;
+    transition: all .3s ease-in-out;
+  }
+  
+  div#main_container .accordion-container .accordion-title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    /*横線*/
+    width: 15px;
+    height: 2px;
+    background: #fff;
+    transition: all .2s ease-in-out;
+  }
+  
+  div#main_container .accordion-container .accordion-title.open::before {
+    transform: rotate(180deg);
+  }
+  
+  div#main_container .accordion-container .accordion-title.open::after {
+    opacity: 0;
+  }
+  
+  div#main_container .accordion-content {
+    padding-left: 2.3125em;
+    border: 1px solid #E7B9CB;
+  }
+  
+  /* CSS for CodePen */
+  div#main_container .accordion-container {
+    width: 300px;
+    margin: 0 auto;
+  }
